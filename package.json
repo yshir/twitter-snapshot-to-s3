@@ -1,0 +1,19 @@
+{
+  "name": "test-twitter-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.607.0",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.15",
+    "moment-timezone": "^0.5.27",
+    "twitter": "^1.7.1"
+  }
+}
