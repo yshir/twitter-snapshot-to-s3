@@ -1,7 +1,8 @@
+require('dotenv').config()
+
 module.exports = async func => {
   try {
     console.log('run')
-    require('dotenv').config()
     await func()
     console.log('all done')
   } catch (err) {
